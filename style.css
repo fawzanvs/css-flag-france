@@ -1,0 +1,21 @@
+.flag {
+    height: 600px;
+    width: 900px;
+    background-color: #ED2939;
+    position: relative;
+}
+
+.flag > div {
+    width: 300px;
+    height: 600px;
+    background-color: #002654;
+    position: absolute;
+}
+
+.flag > div > div {
+    height: 600px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    left: 300px;
+}
